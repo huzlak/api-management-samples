@@ -54,6 +54,14 @@
             "put": {
                 "description": "Returns PUT data.",
                 "operationId": "/put",
+		"parameters": [{
+			"name": "If-Match",
+			"in": "header",
+			"description": "test if-match header",
+			"required": true,
+			"type": "string",
+		},
+		]
                 "responses": {}
             }
         },
