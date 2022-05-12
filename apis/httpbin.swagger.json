@@ -60,8 +60,7 @@
 			"description": "test if-match header",
 			"required": true,
 			"type": "string",
-		},
-		]
+		}],
                 "responses": {}
             }
         },
