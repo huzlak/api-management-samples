@@ -61,17 +61,7 @@
 		    "required": true,
 		    "type": "string"
 		}],
-                "responses": {
-		    "header": {
-		        "description": "test response",
-		        "headers":{
-		            "X-test": {
-                                "description": "The number of allowed requests in the current period",
-                                "type": "integer"
-                            }
-		        }
-                    }
-                }
+                "responses": {}
 	    }
 	},
         "/delete": {
