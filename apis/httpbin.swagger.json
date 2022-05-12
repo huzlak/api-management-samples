@@ -55,13 +55,22 @@
                 "description": "Returns PUT data.",
                 "operationId": "/put",
 		"parameters": [{
-			"name": "If-Match",
-			"in": "header",
-			"description": "test if-match header",
-			"required": true,
-			"type": "string"
+		    "name": "If-Match",
+		    "in": "header",
+		    "description": "test if-match header",
+		    "required": true,
+		    "type": "string"
 		}],
-                "responses": {}
+                "responses": {
+			"header": {
+				"description": "test response",
+				"headers":{
+				    "X-test": {
+                                    "description": "The number of allowed requests in the current period",
+                                    "type": "integer"
+				    "value": "test"
+                                }
+		}
             }
         },
         "/delete": {
