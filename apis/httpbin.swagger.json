@@ -62,17 +62,18 @@
 		    "type": "string"
 		}],
                 "responses": {
-			"header": {
-				"description": "test response",
-				"headers":{
-				    "X-test": {
-                                    "description": "The number of allowed requests in the current period",
-                                    "type": "integer",
-				    "value": "test"
-                                }
-		}
-            }
-        },
+		    "header": {
+		        "description": "test response",
+		        "headers":{
+		            "X-test": {
+                                "description": "The number of allowed requests in the current period",
+                                "type": "integer",
+		                "value": "test"
+                            }
+		        }
+                    }
+                }
+	},
         "/delete": {
             "delete": {
                 "description": "Returns DELETE data.",
