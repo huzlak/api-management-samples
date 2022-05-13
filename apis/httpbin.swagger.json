@@ -34,9 +34,9 @@
                 "description": "Returns GET data.",
                 "operationId": "/get",
                 "responses": {
-		    "header": {
+		    "200": {
 		        "description": "test response",
-		        "200":{
+		        "headers":{
 		            "Etag": {
                                 "description": "The number of allowed requests in the current period",
                                 "type": "integer"
