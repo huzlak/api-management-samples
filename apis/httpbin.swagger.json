@@ -34,18 +34,16 @@
                 "description": "Returns GET data.",
                 "operationId": "/get",
                 "responses": {
-		    "200": {
-	                "description": "returned ok",
-			"headers": {
-			    "Etag": {
-		                "description": "Etag header",
-				"schema": {
-				    "type": "string"
-				}
-			    }	    
+		    "header": {
+		        "description": "test response",
+		        "200":{
+		            "Etag": {
+                                "description": "The number of allowed requests in the current period",
+                                "type": "integer"
+                            }
 		        }
                     }
-		}
+                }		
             }
         },
         "/post": {
