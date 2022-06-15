@@ -81,7 +81,7 @@
                 "responses": {}
             }
         },
-        "/ip/": {
+        "/ip": {
             "get": {
                 "description": "Returns origin IP.",
                 "operationId": "/ip",
