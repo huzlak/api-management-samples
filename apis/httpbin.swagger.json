@@ -84,7 +84,7 @@
         "/ip/": {
             "get": {
                 "description": "Returns origin IP.",
-                "operationId": "/ip/",
+                "operationId": "/ip",
                 "responses": {}
             }
         },
