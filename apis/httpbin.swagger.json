@@ -45,6 +45,11 @@
                     }
                 }		
             }
+	    "head": {
+                "description": "Returns PATCH data.",
+                "operationId": "/patch",
+                "responses": {}
+            }		
         },
         "/post": {
             "post": {
